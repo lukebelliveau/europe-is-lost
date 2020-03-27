@@ -2,7 +2,7 @@
 let's share
 
 # 00. ENTER THE RABBIT HOLE
-first thing to know, when you see text (prededed with backslashes) that looks like this:
+first thing to know, when you see text (prededed with slashes) that looks like this:
 
 `// this is a comment`
 
