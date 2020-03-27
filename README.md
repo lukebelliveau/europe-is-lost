@@ -2,6 +2,14 @@
 let's share
 
 # 01. INTRO
+first thing to know, when you see text (prededed with backslashes) that looks like this:
+
+`// this is a comment`
+
+that is a comment, it is meant for us to speak english to each other. anything in front of backslashes will not be executed as code.
+
+that is a comment. that means it is not code that will be executed, it is our way of leaving notes for each other
+
 We will first produce a phrase - you will code it, and the computer will print it back to you. Traditionally, the first phrase is "Hello World". Tradition is fucking stupid, so print whatever you want. You will do so like this. Type this into your 01.js file:
 
 `console.log("hello, world")`
