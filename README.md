@@ -22,7 +22,24 @@ to execute the program, type the following into your terminal:
 you should see whatever dumb message you decided to write back on your terminal. if you got lost along the way, please ask and you will find a helping hand. let's go down the rabbit hole <33
 
 # 02. WE'RE ALL VARIABLE
-// teach the concept of a variable, and do addition
+Variables are used to store information. They are useful because they allow you to store, label, and manipulate data. The keyword `let` is used to assign a value to a variable - for example, `let five = 5`.
+
+Here, we will use two variables to store two numbers and add them. Consider the following code:
+
+```js
+let two = 2
+let five = 5
+
+let sum = two + five
+
+console.log(sum)
+```
+
+Before executing this code, ask yourself - what do you expect to be printed?
+
+Once you've made your guess, type the above code into 02.js. Execute it by typing the following into your terminal:
+
+`node 02_variables/02.js`
 
 # 03. A STRANGE LOOP
 Together, we are going to learn to count to 5. The following paragraph will explain how, but if you just want to code it without thinking, skip this next one.
@@ -30,6 +47,21 @@ Together, we are going to learn to count to 5. The following paragraph will expl
 An important part of programming is the "for, each" loop. For example, "we start at 0, and for each time we enter the loop, we increment by 1. If we are at 5, stop the loop". This is how we teach a computer to count to 5. I wish I knew how to count to 5. The code is below:
 
 ```js
-// do a backflip, or just write a simple loop
-
+for (let i = 0; i < 5; i++) {
+  console.log("The value of i is " + i)
+}
 ```
+
+Let's break down the top line:
+- `let i = 0`: define a variable, `i`, and assign it the value of 0.
+- `i < 5`: each time we restart the loop, evaluate if the statement `i < 5` is true. If it **is** true, execute the loop again. Otherwise, end the loop.
+- `i++`: Each time we execute the loop, increment the value of `i` by 1.
+
+Executing this code should result in the following output:
+```
+The value of i is 1
+The value of i is 2
+The value of i is 3
+The value of i is 4
+The value of i is 5
+``` 
